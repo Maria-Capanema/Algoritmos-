@@ -1,0 +1,32 @@
+#include <iostream> 
+#include <math.h> 
+
+using namespace std; 
+
+int main(){ 
+    int n1, n2; 
+    char s; 
+    float resultado; 
+    cin>>n1; 
+    cin>>n2; 
+    cin>>s; 
+    if(s=='+'){ 
+        resultado = n1+n2; 
+    } 
+    if(s =='-'){ 
+        resultado = n1-n2; 
+    } 
+    if(s =='/'){ 
+        resultado = n1/n2; 
+    } 
+    if(s =='*'){ 
+        resultado = n1*n2; 
+    } 
+
+    cout<<resultado; 
+
+ 
+
+return 0; 
+
+} 
