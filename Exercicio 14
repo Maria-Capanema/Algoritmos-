@@ -1,0 +1,23 @@
+#include <iostream> 
+#include <math.h> 
+using namespace std;  
+int main(){ 
+  int km, l; 
+  int dg; 
+  cin>>km; 
+  cin>>l; 
+  dg = km/l; 
+  if(dg<8){ 
+    cout<<"Venda o carro!"; 
+  }	 
+  if(dg>=8 and dg<=14){ 
+    cout<<"Economico!"; 
+  } 
+  if(dg>14){
+    cout<<"Super economico!"; 
+  } 
+  return 0; 
+
+} 
+
+ 
